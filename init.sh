@@ -1,0 +1,1 @@
+docker build -t inventivepotter/high-cpu-simulator:latest ./Docker
