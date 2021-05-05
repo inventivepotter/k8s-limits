@@ -1,3 +1,4 @@
 FROM python
 COPY . /src
-CMD ["python", "/src/cpu.py"]
+RUN ["python", "/src/cpu.py"]
+CMD ["python", "-m SimpleHTTPServer 8080"]
